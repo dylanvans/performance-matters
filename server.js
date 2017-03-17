@@ -3,7 +3,7 @@ const nunjucks = require('nunjucks');
 const path = require('path');
 const routeStatic = require('./lib/route-static');
 const redirectIndices = require('./lib/redirect-indices');
-
+const critical = require('critical');
 const app = express();
 const baseDir = 'src';
 const port = process.env.PORT || 3004;
@@ -21,6 +21,18 @@ nunjucks.configure(baseDir, {
     autoescape: true,
     express: app,
     watch: true
+});
+
+critical.generate({
+    inline: false,
+    base: 'src/',
+    src: 'index.html',
+    css: ['src/dist/css/bootstrap.css', 'src/assets/css/src/docs.css'],
+    width: 1300,
+    height: 900,
+    dest: 'dist/css/critical.css',
+    minify: true,
+    extract: true
 });
 
 app.get('*', (req, res, next) => {

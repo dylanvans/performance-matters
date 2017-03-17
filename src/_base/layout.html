@@ -3,9 +3,12 @@
 <head>
     {% include './app-meta.html' %}
 
+    <script src="/assets/js/vendor/loadcss.min.js"></script>
     <link href="/dist/css/fonts.css" rel="stylesheet">
-    <link href="/dist/css/bootstrap.css" rel="stylesheet">
-    <link href="/assets/css/src/docs.css" rel="stylesheet">
+    <style>{% include '../dist/css/critical.css' %}</style>
+    <script defer>loadCSS('/assets/css/src/docs.css'); loadCSS('../dist/css/bootstrap.css');</script>
+   <!--  <link href="/dist/css/bootstrap.css" rel="stylesheet">
+    <link href="/assets/css/src/docs.css" rel="stylesheet"> -->
 
     {% block head_extra %}{% endblock %}
 </head>
