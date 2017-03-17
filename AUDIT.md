@@ -1,6 +1,6 @@
 # Performance audit
 ## Image optimization
-<<<<<<< HEAD
+
 ### Timeline before optimizing images - 23s
 ![Screenshot of first timeline](https://github.com/dylanvans/performance-matters/blob/image-optimization/md-img/first-screenshot.png)
 
