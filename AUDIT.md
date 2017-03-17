@@ -4,7 +4,7 @@
 ![Screenshot of first timeline](https://github.com/dylanvans/performance-matters/blob/image-optimization/md-img/first-screenshot.png)
 
 ### Timeline after minimizing files - 21s
-![Screenshot of timeline](https://github.com/dylanvans/performance-matters/blob/image-optimization/md-img/screenshot.png)
+![Screenshot of timeline](https://github.com/dylanvans/performance-matters/blob/file-minimization/md-img/screenshot.png)
 
 #### Sources
 - [Gulp uglify](https://www.npmjs.com/package/gulp-uglify)
