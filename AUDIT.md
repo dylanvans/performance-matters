@@ -5,7 +5,7 @@ I used [tinypng.com](tinypng.com) to compress the images that are used in the we
 ### Timeline before optimizing images - 23s
 ![Screenshot of first timeline](https://github.com/dylanvans/performance-matters/blob/image-optimization/md-img/first-screenshot.png)
 
-### Timeline after optimizing images - 15s
+### Timeline after optimizing images - 13s
 ![Screenshot of timeline](https://github.com/dylanvans/performance-matters/blob/image-optimization/md-img/screenshot.png)
 
 #### Sources
